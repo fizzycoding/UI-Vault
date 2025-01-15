@@ -1,0 +1,21 @@
+@import "./styles/fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Segoe UI Regular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: start;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
