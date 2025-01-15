@@ -9,7 +9,7 @@ function SearchBar() {
         placeholder="Search"
         className="max-sm:hidden bg-zinc-50 dark:bg-gray-950 py-1 dark:text-texts-dark dark:focus:ring-gray-50 dark:ring-gray-700 outline-none placeholder:text-sm text-sm px-2 flex justify-center items-center ring-texts-light80 rounded placeholder:text-texts-light80 ring-1 focus:ring-1 focus:ring-primary pr-7"
       />
-      <FiSearch className="absolute right-2 top-1/2 transform -translate-y-1/2 text-texts text-sm sm:text-texts-light80" />
+      <FiSearch className="absolute right-2 top-1/2 transform -translate-y-1/2 dark:text-white text-texts text-sm sm:text-texts-light80" />
     </div>
   );
 }
