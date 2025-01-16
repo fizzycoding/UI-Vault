@@ -1,7 +1,4 @@
-import {
-  GlassButton,  
-  GradientButton,
-} from "./buttons.js";
+import { buttons } from "./buttons.js";
 
 const generateUniqueIds = (components, prefix) => {
   return components.map((component, index) => ({
@@ -10,7 +7,7 @@ const generateUniqueIds = (components, prefix) => {
   }));
 };
 
-const rawButtons = [GradientButton, GlassButton];
+const rawButtons = buttons;
 
 export const component = {
   buttons: generateUniqueIds(rawButtons, "button"),

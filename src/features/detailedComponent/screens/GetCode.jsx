@@ -18,7 +18,7 @@ function GetCode({ onClose, codes }) {
   return (
     <div className="fixed inset-0 bg-black py-20 bg-opacity-50 flex justify-center items-center z-30">
       {/* Modal card */}
-      <div className="dark:bg-dark-light20 bg-white w-11/12 h-full sm:w-3/4 lg:w-1/2 p-2 sm:p-5 rounded-lg shadow-lg flex flex-col relative">
+      <div className="dark:bg-dark-light10 bg-white w-11/12 h-full sm:w-3/4 lg:w-1/2 p-2 sm:p-5 rounded-lg shadow-lg flex flex-col relative">
         {/* Header */}
         <div className="flex justify-between items-center border-b dark:border-dark-light50 pb-3 mb-4">
           <div className="flex gap-2 sm:gap-4 overflow-x-scroll scrollbar-hide">
@@ -47,7 +47,7 @@ function GetCode({ onClose, codes }) {
         </div>
 
         {/* Code display section */}
-        <div className=" bg-gray-100 dark:bg-dark-light20 scrollbar-hide relative rounded-lg border dark:border-dark-light50 mb-4 h-full overflow-scroll">
+        <div className=" bg-gray-100 dark:bg-dark/10 scrollbar-hide relative rounded-lg border dark:border-dark-light50 mb-4 h-full overflow-scroll">
           <div className="h-full overflow-scroll">
             <SyntaxHighlighter
               style={style}
@@ -57,6 +57,7 @@ function GetCode({ onClose, codes }) {
                 border: "none",
                 outline: "none",
                 height: "100%",
+                fontSize: "0.8rem",
                 overflow: "auto", // Enable scrolling
               }}
               wrapLongLines={true}
@@ -76,7 +77,7 @@ function GetCode({ onClose, codes }) {
           </div>
           <div
             onClick={handleCopy}
-            className="flex cursor-pointer hover:bg-gray-50 dark:bg-dark-light50 dark:bg-dark-light60 dark:text-texts-dark bg-white px-2 rounded py-0.5 text-xs justify-center items-center absolute z-50 top-2 right-2"
+            className="flex cursor-pointer hover:bg-gray-50  dark:bg-dark-light10 dark:text-texts-dark bg-white px-2 rounded py-0.5 text-xs justify-center items-center absolute z-50 top-2 right-2"
           >
             <FaRegCopy />
             <span className="ml-1 ">Copy</span>

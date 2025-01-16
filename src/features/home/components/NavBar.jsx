@@ -20,7 +20,7 @@ function NavBar() {
   }, [isDarkModeOn]);
 
   return (
-    <nav className="shadow-sm bg-[#fafafa] shadow-zinc-200 p-3 flex w-full justify-center bg-white dark:shadow-gray-700 dark:bg-black">
+    <nav className="shadow-sm bg-[#fafafa] shadow-zinc-200 p-3 flex w-full justify-center  dark:shadow-gray-700 dark:bg-black">
       <div className="max-w-6xl flex justify-between w-full">
         <div className="font-segoeBold sm:text-xl">
           <span className="text-primary">UI </span>
@@ -29,16 +29,14 @@ function NavBar() {
         <div className="flex  gap-4 justify-center items-center">
           <SearchBar />
 
-          <div className="hover:bg-zinc-100 dark:hover:bg-dark-light30 rounded-md cursor-pointer p-1.5">
+          <div onClick={() => setIsDarkModeOn(!isDarkModeOn)} className="hover:bg-zinc-100 dark:hover:bg-dark-light30 rounded-md cursor-pointer p-1.5">
             {isDarkModeOn ? (
               <MdOutlineLightMode
                 className="sm:text-lg cursor-pointer text-yellow-400"
-                onClick={() => setIsDarkModeOn(false)}
               />
             ) : (
               <MdOutlineDarkMode
                 className="sm:text-lg cursor-pointer text-gray-800"
-                onClick={() => setIsDarkModeOn(true)}
               />
             )}
           </div>
