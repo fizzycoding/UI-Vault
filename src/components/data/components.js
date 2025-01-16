@@ -1,4 +1,5 @@
 import { buttons } from "./buttons.js";
+import { cards } from "./cards.js";
 
 const generateUniqueIds = (components, prefix) => {
   return components.map((component, index) => ({
@@ -11,4 +12,5 @@ const rawButtons = buttons;
 
 export const component = {
   buttons: generateUniqueIds(rawButtons, "button"),
+  cards: generateUniqueIds(cards, "card"),
 };

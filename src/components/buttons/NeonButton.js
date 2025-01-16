@@ -7,7 +7,7 @@ const NeonButton = {
   codes: {
     html: {
       code: `<button class="neon-btn">Neon Button</button>`,
-      type: "html",
+      type: "xml",
     },
     css: {
       code: `.neon-btn {

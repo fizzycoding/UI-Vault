@@ -6,7 +6,7 @@ const GradientButton = {
   codes: {
     html: {
       code: `<button class="gradient-btn">Gradient Button</button>`,
-      type: "html",
+      type: "xml",
     },
     css: {
       code: `.gradient-btn {

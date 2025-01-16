@@ -7,7 +7,7 @@ const GradientBorderButton = {
   codes: {
     html: {
       code: `<div class="gradient-border-btn">Gradient Border Button</div>`,
-      type: "html",
+      type: "xml",
     },
     css: {
       code: `.gradient-border-btn {

@@ -7,7 +7,7 @@ const GlassButton = {
   codes: {
     html: {
       code: `<button class="glass-btn">Glass Button</button>`,
-      type: "html",
+      type: "xml",
     },
     css: {
       code: `.glass-btn {
