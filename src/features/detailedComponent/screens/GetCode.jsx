@@ -76,7 +76,7 @@ function GetCode({ onClose, codes }) {
           </div>
           <div
             onClick={handleCopy}
-            className="flex dark:bg-dark-light60 dark:text-texts-dark bg-white px-2 rounded py-0.5 text-xs justify-center items-center absolute z-50 top-2 right-2"
+            className="flex cursor-pointer hover:bg-gray-50 dark:bg-dark-light50 dark:bg-dark-light60 dark:text-texts-dark bg-white px-2 rounded py-0.5 text-xs justify-center items-center absolute z-50 top-2 right-2"
           >
             <FaRegCopy />
             <span className="ml-1 ">Copy</span>

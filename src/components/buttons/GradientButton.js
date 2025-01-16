@@ -1,9 +1,8 @@
-import GB from "./GradientButton";
+import preview from "./Preview/GradientButton";
 const GradientButton = {
-  id: "btn1",
-  title: "Blue Button",
+  title: "GradientButton",
   type: "button",
-  prev: GB,
+  preview,
   codes: {
     html: {
       code: `<button class="gradient-btn">Gradient Button</button>`,

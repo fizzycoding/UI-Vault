@@ -8,7 +8,6 @@ function ComponentCard({
   setGetCodeOpened,
   setClickedComponent,
 }) {
-  const navigate = useNavigate();
   const handleGetCodeClick = () => {
     setClickedComponent(item);
     setGetCodeOpened(true);
