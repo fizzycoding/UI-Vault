@@ -1,6 +1,6 @@
 import preview from "./Preview/PulsingDots";
 
-const NeonButton = {
+const Component = {
   title: "PulsingDots",
   type: "loading",
   preview,
@@ -52,4 +52,4 @@ const NeonButton = {
   downloadLink: "https://google.com/",
 };
 
-export default NeonButton;
+export default Component;
