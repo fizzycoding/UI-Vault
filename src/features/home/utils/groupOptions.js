@@ -4,4 +4,5 @@ export const options = [
   { id: "cards", title: "Cards", type: "card" },
   { id: "inputs", title: "Inputs", type: "input" },
   { id: "progress", title: "Progress Bar", type: "progress" },
+  { id: "loading", title: "Loading", type: "loading" },
 ];
