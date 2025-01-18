@@ -28,10 +28,10 @@ function HomePage() {
       {/* Top of hero section  */}
       <div className="w-full flex flex-col items-center">
         <div className="w-full flex justify-center items-center gap-4 dark:bg-gradientDark bg-gradientLight sm:gap-8 flex-col min-h-60 sm:min-h-60 mb-10 min-md:min-h-80">
-          <div className="font-segoeBold  text-sm mt-2 sm:text-lg flex  justify-center items-center gap-1 sm:gap-2 ">
-            <MdOutlineRocketLaunch className="text-primary" />
-            <span className="text-primary underline ">100+ New Components</span>
-            <span className="text-primary"> daily!</span>
+          <div className="font-segoeBold text-green-500  text-sm mt-2 sm:text-lg flex  justify-center items-center gap-1 sm:gap-2 ">
+            <MdOutlineRocketLaunch className="" />
+            <span className=" underline ">100+ New Components</span>
+            <span className=""> daily!</span>
           </div>
           <span className="sm:text-5xl text-4xl font-segoeBold font-medium text-center px-3 dark:text-texts-light95 text-texts max-w-4xl">
             Curated library of reusable UI components
