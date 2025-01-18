@@ -20,7 +20,7 @@ export default {
       },
       backgroundImage: {
         gradient:
-          "linear-gradient(180deg, rgba(80,77,247,0.1) 0%, rgba(80,77,247,0.2) 100%);",
+          "linear-gradient(180deg, rgba(16,16,16,1) 14%, rgba(0,0,0,1) 100%);",
         senderGradient:
           "linear-gradient(180deg, rgba(87,87,87,0.05) 0%, rgba(87,87,87,0.1) 100%);",
       },
