@@ -19,10 +19,10 @@ export default {
         segoeBoldItalic: ['"Segoe UI Bold Italic"', "sans-serif"],
       },
       backgroundImage: {
-        gradient:
+        gradientDark:
           "linear-gradient(180deg, rgba(16,16,16,1) 14%, rgba(0,0,0,1) 100%);",
-        senderGradient:
-          "linear-gradient(180deg, rgba(87,87,87,0.05) 0%, rgba(87,87,87,0.1) 100%);",
+        gradientLight:
+          "linear-gradient(180deg, rgba(255,255,255,1) 14%, rgba(250,250,250,1) 100%);",
       },
       fontSize: {
         "2xs": "0.625rem", // 10px
@@ -32,7 +32,7 @@ export default {
       colors: {
         primary: "#504DF7",
         secondary: "#575757",
-        dark:{
+        dark: {
           DEFAULT: "#050505",
           light10: "#111111",
           light20: "#1d1d1d",
