@@ -31,7 +31,7 @@ function NavBar() {
 
           <div
             onClick={() => setIsDarkModeOn(!isDarkModeOn)}
-            className="hover:bg-zinc-100 dark:hover:bg-dark-light30 rounded-md cursor-pointer p-1.5"
+            className="hover:bg-zinc-200 dark:hover:bg-dark-light30 rounded-md cursor-pointer p-1.5"
           >
             {isDarkModeOn ? (
               <MdOutlineLightMode className="sm:text-lg cursor-pointer text-yellow-400" />
@@ -39,7 +39,7 @@ function NavBar() {
               <MdOutlineDarkMode className="sm:text-lg cursor-pointer text-gray-800" />
             )}
           </div>
-          <div className="hover:bg-zinc-100 dark:hover:bg-dark-light30 rounded-md cursor-pointer p-1.5">
+          <div className="hover:bg-zinc-200 dark:hover:bg-dark-light30 rounded-md cursor-pointer p-1.5">
             <FaDiscord className="sm:text-lg text-texts dark:text-white" />
           </div>
         </div>

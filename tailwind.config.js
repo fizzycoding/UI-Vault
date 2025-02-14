@@ -20,7 +20,7 @@ export default {
       },
       backgroundImage: {
         gradientDark:
-          "linear-gradient(180deg, rgba(28,28,28,1) 14%, rgba(0,0,0,1) 100%);",
+          "linear-gradient(180deg, rgba(7,7,7,1) 14%, rgba(0,0,0,1) 100%);",
         gradientLight:
           "linear-gradient(180deg, rgba(255,255,255,1) 14%, rgba(250,250,250,1) 100%);",
       },
