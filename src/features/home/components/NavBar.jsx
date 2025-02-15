@@ -39,7 +39,7 @@ function NavBar() {
               <MdOutlineDarkMode className="sm:text-lg cursor-pointer text-gray-800" />
             )}
           </div>
-          <div className="hover:bg-zinc-200 dark:hover:bg-dark-light30 rounded-md cursor-pointer p-1.5">
+          <div onClick={() => window.location.href = "https://discord.gg/MYVeMXxKW5"} className="hover:bg-zinc-200 dark:hover:bg-dark-light30 rounded-md cursor-pointer p-1.5">
             <FaDiscord className="sm:text-lg text-texts dark:text-white" />
           </div>
         </div>
